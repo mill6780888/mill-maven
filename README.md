@@ -6,7 +6,7 @@
      <repository>
          <id>haoch-maven-release-repository</id>
          <name>haoch-maven-release-repository</name>
-         <url>https://raw.github.com/${github_account}/maven/release/</url>
+         <url>https://raw.github.com/mill6780888/mill-maven/release/</url>
      </repository>
  </repositories>
 ```
@@ -14,9 +14,9 @@
 ```
 <dependencies>
      <dependency>
-         <artifactId>${artifactId}</artifactId>
-         <groupId>com.github.${github_account}</groupId>
-         <version>${version}</version>
+         <artifactId>base-utils</artifactId>
+         <groupId>mill.java.base</groupId>
+         <version>1.0-SNAPSHOT</version>
      </dependency>
  </dependencies>
 ```

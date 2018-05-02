@@ -20,3 +20,7 @@
      </dependency>
  </dependencies>
 ```
+> 发布到本地目录
+```
+mvn deploy -DaltDeploymentRepository=hengyunabc-mvn-repo::default::file:/home/hengyunabc/code
+```

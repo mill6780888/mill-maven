@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>base-context</artifactId>
+  <description>基础部分的框架</description>
+   <repositories>
+     <repository>
+         <id>haoch-maven-release-repository</id>
+         <name>haoch-maven-release-repository</name>
+         <url>https://raw.github.com/mill6780888/mill-maven/release/</url>
+     </repository>
+ </repositories>
+ 
+   <parent>
+   	<groupId>priv.mill</groupId>
+   	<artifactId>parent-base</artifactId>
+   	<version>0.0.1-SNAPSHOT</version>
+   </parent>
+   <dependencies>
+			<dependency>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-servlet</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-server</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context</artifactId>
+				<version>4.3.9.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>priv.mill</groupId>
+				<artifactId>mill-mybatis-base</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+   </dependencies>
+</project>
